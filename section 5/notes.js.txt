@@ -1,0 +1,14 @@
+/Users/Andrew/Downloads/n3-04-08-arrow-functions/playground/2-arrowfunction.js:21
+ console.log(guest + ' is attending ' + eventName)
+ ^
+ReferenceError: eventName is not defined
+ at guestList.forEach (/Users/Andrew/Downloads/n3-04-08-arrowfunctions/playground/2-arrow-function.js:21:52)
+ at Array.forEach (<anonymous>)
+ at Object.printGuestList (/Users/Andrew/Downloads/n3-04-08-arrowfunctions/playground/2-arrow-function.js:20:24)
+ at Object.<anonymous> (/Users/Andrew/Downloads/n3-04-08-arrowfunctions/playground/2-arrow-function.js:26:7)
+ at Module._compile (internal/modules/cjs/loader.js:707:30)
+ at Object.Module._extensions..js (internal/modules/cjs/loader.js:718:10)
+ at Module.load (internal/modules/cjs/loader.js:605:32)
+ at tryModuleLoad (internal/modules/cjs/loader.js:544:12)
+ at Function.Module._load (internal/modules/cjs/loader.js:536:3)
+ at Function.Module.runMain (internal/modules/cjs/loader.js:760:12)
